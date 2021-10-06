@@ -13,6 +13,12 @@
     max-width: 1180px;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .left {
     float: left;
 }
@@ -21,11 +27,6 @@
     float: right;
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 .button {
     text-decoration: none;
@@ -53,6 +54,15 @@
 
 .blue {
     color: #5765f2;
+}
+
+.bt-blue {
+    color: white;
+    background-color: #255ee8;
+}
+
+.mt-25 {
+    margin-top: 25px;
 }
 
 /* **** header **** */
@@ -104,11 +114,6 @@ header {
     display: block;
     padding: 0 15px;
 }
-
-.header-top nav li a:hover {
-    text-decoration: underline;
-}
-
 
 /* button accedi */
 
@@ -214,11 +219,6 @@ main section .container {
     font-size: 25px;
 }
 
-#quattro a.button {
-    color: white;
-    background-color: #255ee8;
-}
-
 /* wave */
 
 .wave {
@@ -231,23 +231,32 @@ main section .container {
 
 /* **** footer **** */
 
+footer {
+    background-color: #23272a;
+}
+
 .footer-top section {
     width: 17%;
     float: left;
     color: white;
-    padding-top: 60px;
+    padding: 60px 0 40px;
 }
 
 .footer-top section:first-child {
     width: 32%;
+    padding-top: 50px;
 }
 
 
 /* footer top */
 
+.footer-top {
+    border-bottom: 1px solid #255ee8;
+}
+
 .footer-top #contatti h2 {
     width: 60%;
-    font-size: 28px;
+    font-size: 30px;
     color: #5765f2;
 }
 
@@ -270,12 +279,14 @@ main section .container {
 }
 
 .footer-top .social i {
+    font-size: 20px;
     display: inline-block;
     padding-right: 15px;
 }
 
 .footer-top li {
     list-style: none;
+    padding-top: 8px;
 }
 
 .footer-top li a {
@@ -283,6 +294,15 @@ main section .container {
     color: white;
 }
 
+li a:hover {
+    text-decoration: underline;
+}
+
+/* footer bottom  */
+
+.footer-bottom {
+    padding-bottom: 60px;
+}
 
 
 /* debug */
