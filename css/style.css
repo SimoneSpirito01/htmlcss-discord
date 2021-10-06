@@ -13,16 +13,43 @@
     clear: both;
 }
 
+.button {
+    text-decoration: none;
+    border-radius: 2em;
+    padding: 5px 10px;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
 
 /* **** header **** */
+
+header {
+    background-color: #404eed;
+}
 
 /* header top */
 
 .header-top {
+    width: 80%;
     height: 80px;
-    background-color: #404eed;
+    margin: 0 auto;
+    line-height: 80px;
 }
 
+.header-top a {
+    font-size: 14px;
+    text-decoration: none;
+
+}
+ 
 .logo,
 .accedi {
     width: 25%;
@@ -39,20 +66,37 @@
     float: left;
 }
 
+/* logo */
+
+.logo img {
+    vertical-align: middle;
+}
+
+/* nav */
+
 .header-top nav li {
     display: inline-block;
 }
 
 .header-top nav li a {
-    height: 80px;
-    line-height: 80px;
-    font-size: 14px;
     font-weight: bold;
-    text-decoration: none;
     color: white;
     display: block;
     padding: 0 15px;
 }
+
+.header-top nav li a:hover {
+    text-decoration: underline;
+}
+
+
+/* button accedi */
+
+.accedi {
+    text-align: right;
+}
+
+
 
 /* jumbotron */
 
