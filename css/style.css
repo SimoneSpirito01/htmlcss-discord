@@ -5,3 +5,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* **** header **** */
+
+.header-top {
+    height: 80px;
+    background-color: #404eed;
+}
+
+/* **** main **** */
+
+/* **** footer **** */
+
+/* debug */
+
+.debug .header-top {
+
+}
+
+.debug .jumbotron{
+    height: 600px;
+    background-color: yellow;
+}
+
+main.debug {
+    height: 1200px;
+    background-color: red;
+}
+
+footer.debug {
+    height: 400px;
+    background-color: green;
+}
