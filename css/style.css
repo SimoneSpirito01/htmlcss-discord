@@ -7,6 +7,12 @@
     font-family: 'Catamaran', sans-serif;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1180px;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -14,6 +20,7 @@
 }
 
 .button {
+    font-weight: bold;
     text-decoration: none;
     border-radius: 2em;
     padding: 5px 10px;
@@ -29,10 +36,14 @@
     color: white;
 }
 
+.big {
+    padding: 10px 20px;
+}
+
 /* **** header **** */
 
 header {
-    background-color: #404eed;
+    background-color: #255ee8;
 }
 
 /* header top */
@@ -100,7 +111,36 @@ header {
 
 /* jumbotron */
 
+.jumbotron {
+    height: 600px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+}
 
+.jumbo-text {
+    width: 60%;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.jumbo-text h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.jumbo-text .button {
+    display: inline-block;
+    margin: 40px 10px;
+}
+
+.jumbo-text i {
+    font-size: 20px;
+    vertical-align: middle;
+    padding-right: 4px;
+}
 
 /* **** main **** */
 
@@ -114,14 +154,24 @@ header {
     height: 100%;
 }
 
+.debug .container {
+    height: 100%;
+    background-color: cadetblue;
+}
+
 .debug .jumbotron{
     height: 600px;
     background-color: yellow;
 }
 
 main.debug {
-    height: 1200px;
     background-color: red;
+}
+
+.debug section {
+    height: 600px;
+    background-color: violet;
+    border: 1px solid black;
 }
 
 footer.debug {
