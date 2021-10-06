@@ -17,6 +17,10 @@
     float: left;
 }
 
+.right {
+    float: right;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -223,6 +227,15 @@ main section .container {
 
 /* **** footer **** */
 
+.footer-top section {
+    width: 15%;
+    float: left;
+}
+
+.footer-top section:first-child {
+    width: 40%;
+}
+
 /* debug */
 
 .debug .header-top div,
@@ -243,13 +256,38 @@ main.debug {
     background-color: red;
 }
 
-.debug section {
-    height: 600px;
+.debug main section {
     background-color: violet;
     border: 1px solid black;
 }
 
 footer.debug {
-    height: 400px;
     background-color: green;
+}
+
+.debug .footer-top {
+    height: 450px;
+    background-color: tomato;
+}
+
+.debug .footer-bottom {
+    height: 150px;
+    background-color: turquoise;
+}
+
+.debug .footer-top section {
+    height: 100%;
+    border: 1px solid black;
+}
+
+.debug .logo{
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+.debug .registrati {
+    width: 100px;
+    height: 50px;
+    background-color: cornflowerblue;
 }
