@@ -151,15 +151,17 @@ main section .container {
 }
 
 .img-section {
-    width: 65%;
+    width: 50%;
+    margin-right: 10%;
 }
 
 .img-section img {
-    width: 650px;
+    width: 600px;
 }
 
 .text-section {
-    width: 35%;
+    width: 40%;
+    padding: 20px 40px;
 }
 
 .text-section h3 {
