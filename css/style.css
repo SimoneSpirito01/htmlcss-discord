@@ -13,6 +13,10 @@
     max-width: 1180px;
 }
 
+.left {
+    float: left;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -69,12 +73,6 @@ header {
 .header-top nav {
     width: 50%;
     text-align: center;
-}
-
-.logo,
-.accedi,
-.header-top nav {
-    float: left;
 }
 
 /* logo */
@@ -144,6 +142,36 @@ header {
 
 /* **** main **** */
 
+main section {
+    position: relative;
+}
+
+main section .container {
+    margin: 100px auto;
+}
+
+.img-section {
+    width: 65%;
+}
+
+.img-section img {
+    width: 650px;
+}
+
+.text-section {
+    width: 35%;
+}
+
+.text-section h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    
+}
+
+.text-section p {
+    font-size: 18px;
+}
+
 /* **** footer **** */
 
 /* debug */
@@ -155,12 +183,10 @@ header {
 }
 
 .debug .container {
-    height: 100%;
     background-color: cadetblue;
 }
 
 .debug .jumbotron{
-    height: 600px;
     background-color: yellow;
 }
 
