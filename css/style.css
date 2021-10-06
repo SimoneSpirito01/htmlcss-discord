@@ -228,13 +228,48 @@ main section .container {
 /* **** footer **** */
 
 .footer-top section {
-    width: 15%;
+    width: 17%;
     float: left;
+    color: white;
 }
 
 .footer-top section:first-child {
-    width: 40%;
+    width: 32%;
 }
+
+
+/* footer top */
+
+.footer-top #contatti h2 {
+    width: 60%;
+    font-size: 28px;
+    color: #5765f2;
+}
+
+.footer-top .lingua {
+    height: 25px;
+    line-height: 25px;
+}
+
+.footer-top .lingua img {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.footer-top .lingua span {
+    font-size: 12px;
+}
+
+.footer-top .social {
+    margin-top: 10px;
+}
+
+.footer-top .social i {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+
 
 /* debug */
 
