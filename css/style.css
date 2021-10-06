@@ -83,7 +83,6 @@ header {
 .header-top a {
     font-size: 14px;
     text-decoration: none;
-
 }
  
 .logo,
@@ -155,10 +154,6 @@ header {
 }
 
 /* **** main **** */
-
-main section {
-    position: relative;
-}
 
 main section .container {
     margin: 0 auto;
@@ -246,7 +241,6 @@ footer {
     width: 32%;
     padding-top: 50px;
 }
-
 
 /* footer top */
 
