@@ -4,14 +4,59 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 /* **** header **** */
+
+/* header top */
 
 .header-top {
     height: 80px;
     background-color: #404eed;
 }
+
+.logo,
+.accedi {
+    width: 25%;
+}
+
+.header-top nav {
+    width: 50%;
+    text-align: center;
+}
+
+.logo,
+.accedi,
+.header-top nav {
+    float: left;
+}
+
+.header-top nav li {
+    display: inline-block;
+}
+
+.header-top nav li a {
+    height: 80px;
+    line-height: 80px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0 15px;
+}
+
+/* jumbotron */
+
+
 
 /* **** main **** */
 
@@ -19,8 +64,10 @@
 
 /* debug */
 
-.debug .header-top {
-
+.debug .header-top div,
+.debug .header-top nav {
+    border: 1px solid black;
+    height: 100%;
 }
 
 .debug .jumbotron{
