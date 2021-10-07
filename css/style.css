@@ -283,7 +283,8 @@ footer {
     padding-top: 8px;
 }
 
-.footer-top li a {
+.footer-top li a,
+.footer-top .social a {
     text-decoration: none;
     color: white;
 }
